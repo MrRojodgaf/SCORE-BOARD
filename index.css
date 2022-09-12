@@ -14,13 +14,30 @@ body {
     display: flex;
     justify-content: space-around;
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
     .container {
     width: 90vw;
+    }
+}
+
+.home {
+    margin-left: 5px;
+}
+
+.guest {
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 690px) {
+    .home {
+      margin-left: 30px;
+    }
+    .guest {
+        margin-right: 30px;
     }
 }
 
